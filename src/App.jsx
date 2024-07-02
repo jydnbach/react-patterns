@@ -7,7 +7,7 @@ function App() {
       <section>
         <h2></h2>
         <Accordion className="accordion">
-          <AccordionItem
+          <Accordion.Item
             id="experience"
             className="accordion-item"
             title="We got 20 years of experience"
@@ -16,8 +16,8 @@ function App() {
               <p>You can&apos;t go wrong with us.</p>
               <p>We are in the business of ....</p>
             </article>
-          </AccordionItem>
-          <AccordionItem
+          </Accordion.Item>
+          <Accordion.Item
             id="local-guides"
             className="accordion-item"
             title="We're working with local guides"
@@ -26,7 +26,7 @@ function App() {
               <p>We are not doing this along from out office.</p>
               <p>Instead, we are working with local guides</p>
             </article>
-          </AccordionItem>
+          </Accordion.Item>
         </Accordion>
       </section>
     </main>
