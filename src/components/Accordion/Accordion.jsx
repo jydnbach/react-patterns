@@ -6,8 +6,12 @@ export function useAccordionContext() {
   const ctx = useContext(AccordionContext);
 
   if (!ctx) {
-    throw new Error('');
+    throw new Error(
+      'Accordion-related components must be wrapped by <Accordion>'
+    );
   }
+
+  return ctx;
 }
 
 export default function Accordion({ children, className }) {
